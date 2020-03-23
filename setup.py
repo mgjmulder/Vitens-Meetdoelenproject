@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='meetdoelenproject',
-      version='0.3',
+      version='0.4',
       description='Meetdoelenproject ter optimalisatie van Vitens-meetnet',
       url='https://github.com/mgjmulder/Vitens-Meetdoelenproject/',
       author='Martijn Mulder',
@@ -14,5 +14,6 @@ setup(name='meetdoelenproject',
                         'geopandas',
                         'imod',
                         'numpy',
+			'os',
                         'pandas',
                         'shapely'])
